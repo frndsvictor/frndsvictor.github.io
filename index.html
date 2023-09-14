@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWorks</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffbf8;
+        }
+
+        header {
+            background-color: #fffbf8;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #fffbf8;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 10px;
+        }
+
+        /* Style links as buttons */
+        nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fffbf8;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555; /* Change the color on hover */
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fffbf8;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Logo styles */
+        .logo {
+            max-width: 200px; /* Adjust the size as needed */
+            display: block;
+            margin: 0 auto;
+            transition: opacity 0.3s ease; /* Add a transition effect */
+        }
+
+        /* Apply the fade-in and fade-out animation to the logo on hover */
+        .logo:hover {
+            animation: fade 1s ease infinite alternate; /* Fade in and out continuously on hover */
+        }
+
+        /* Define the fade-in and fade-out animation */
+        @keyframes fade {
+            0% {
+                opacity: 1; /* Fully visible */
+            }
+            100% {
+                opacity: 0; /* Fully transparent */
+            }
+        }
+
+        /* Make header and footer full width */
+        header, footer {
+            width: 100%;
+        }
+
+        /* Make section fill the remaining viewport height */
+        section {
+            min-height: calc(100vh - 70px); /* Subtract header and footer height */
+        }
+
+        /* Remove bullet points from lists */
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Coding Company Logo" class="logo">
+        <p>Coding, made simple, as it should be.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Booking</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="container">
+            <h2>Who we are</h2>
+            <br>
+            <p>We aim to solve all your problems in a fast-paced and simple way,
+                straight to the point, bringing solutions to your company whenever you have a demand.
+            </p>
+            <br>
+
+            <h2>What we do</h2>
+            <br>
+            <ul>
+                <li>Web Development</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Front-end & Back-end</li>
+                <li>Mobile App Development</li>
+                <li>iOS</li>
+                <li>Android</li>
+                <li>Custom Software Solutions</li>
+                <li>Business Applications</li>
+                <li>Integration</li>
+                <li>Graphic design</li>
+            </ul>
+            <br>
+            <h2>Our Expertise</h2>
+            <br>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Frameworks & Libraries</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+            <br>
+
+            <h2>How we do it</h2>
+            <br>
+            <ul>
+                <li>Requirement Analysis</li>
+                <li>Design & Prototyping</li>
+                <li>Development</li>
+                <li>Testing & Quality Assurance</li>
+                <li>Deployment & Maintenance</li>
+            </ul>
+            <br>
+
+            <h2>Let's talk</h2>
+            <br>
+            <ul>
+                <li>Email: info@codeworks.digital</li>
+                <li>LinkedIn</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2023 CodeWorks
+    </footer>
+</body>
+</html>
