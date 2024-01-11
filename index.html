@@ -1,146 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeWorks</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <style>
-        /* Reset some default styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fffbf8;
-        }
-
-        header {
-            background-color: #fffbf8;
-            color: #333;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-
-        nav {
-            background-color: #fffbf8;
-            text-align: center;
-            padding: 10px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav li {
-            display: inline;
-            margin: 10px;
-        }
-
-        /* Style links as buttons */
-        nav a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fffbf8;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        nav a:hover {
-            background-color: #555; /* Change the color on hover */
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            background-color: #333;
-            color: #fffbf8;
-            text-align: center;
-            padding: 10px;
-        }
-
-        /* Logo styles */
-        .logo {
-            max-width: 200px; /* Adjust the size as needed */
-            display: block;
-            margin: 0 auto;
-            transition: opacity 0.3s ease; /* Add a transition effect */
-        }
-
-        /* Apply the fade-in and fade-out animation to the logo on hover */
-        .logo:hover {
-            animation: fade 1s ease infinite alternate; /* Fade in and out continuously on hover */
-        }
-
-        /* Define the fade-in and fade-out animation */
-        @keyframes fade {
-            0% {
-                opacity: 1; /* Fully visible */
-            }
-            100% {
-                opacity: 0; /* Fully transparent */
-            }
-        }
-
-        /* Make header and footer full width */
-        header, footer {
-            width: 100%;
-        }
-
-        /* Make section fill the remaining viewport height */
-        section {
-            min-height: calc(100vh - 70px); /* Subtract header and footer height */
-        }
-
-        /* Remove bullet points from lists */
-        ul {
-            list-style: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victor Fernandes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .profile-card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .profile-picture {
+      width: 100%;
+      border-bottom: 1px solid #dee2e6;
+    }
+    .profile-info {
+      padding: 20px;
+    }
+    .profile-info h5 {
+      margin-bottom: 5px;
+    }
+    .profile-info p {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="CodeWorks" class="logo">
-        <p>Coding, made simple, as it should be.</p>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Login</a></li>
-        </ul>
-    </nav>
 
-    <section>
-        <div class="container">
-            <p>Build and publish your own website in just a few minutes.</p>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <!-- Profile Section -->
+        <div class="card profile-card">
+          <img src="profile.jpg" class="card-img-top profile-picture" alt="Your Name">
+          <div class="card-body profile-info">
+            <h5 class="card-title">Victor Fernandes</h5>
+            <p class="card-text">Web Developer</p>
+            <p><strong>Email:</strong> victorfrnds@naver.com</p>
+            <p><strong>Phone:</strong> +5541992858277</p>
+            <p><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/victorfrnds/">victorfrnds</a></p>
+            <p><strong>Github: </strong><a href="https://github.com/frndsvictor">frndsvictor</a></p>
+          </div>
         </div>
-    </section>
+      </div>
+      <div class="col-md-8">
+        <!-- CV Section -->
+        <div class="card">
+          <div class="card-body">
 
-    <footer>
-        &copy; 2023 CodeWorks
-    </footer>
+            <!-- Education -->
+            <h3>Education</h3>
+            <p><strong>Technical Degree in Web Development</strong></p>
+            <p><strong>University:</strong> Anhanguera</p>
+            <p><strong>Year:</strong>  Graduated in July 2023</p>
+            <p><strong>Scrum Fundamentals</strong></p>
+            <p><strong>Year:</strong> Certification obtained in June 2023</p>
+
+            <!-- Work Experience -->
+            <h3>Work Experience</h3>
+            <p><strong>Position:</strong> Technical Support</p>
+            <p><strong>Company:</strong> Prime Control</p>
+            <p><strong>Year:</strong>  January 2023 - September 2023</p>
+            <p><strong>Position:</strong> Technical Support</p>
+            <p><strong>Company:</strong> CEDAV</p>
+            <p><strong>Year:</strong>  July 2021 - August 2022</p>
+            <p><strong>Position:</strong> Web Development Intern</p>
+            <p><strong>Company:</strong> Logic Solutions</p>
+            <p><strong>Year:</strong>  October 2020 - July 2021</p>
+
+            <!-- Skills -->
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>React.js, Angular, Vue.js, Node.js</li>
+              <li>Git, GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js (optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
