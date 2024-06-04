@@ -4,101 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Victor Fernandes</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     body {
       background-color: #f8f9fa;
     }
     .profile-card {
-      border: none;
+      background-color: #fff;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
-    }
-    .profile-picture {
-      width: 100%;
-      border-bottom: 1px solid #dee2e6;
-    }
-    .profile-info {
-      padding: 20px;
-    }
-    .profile-info h5 {
-      margin-bottom: 5px;
-    }
-    .profile-info p {
-      margin-bottom: 10px;
-    }
-    
-    hr.solid {
-  border-top: 1px solid #949494;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
 <body>
-
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <!-- Profile Section -->
-        <div class="card profile-card">
-          <img src="profile.jpeg" class="card-img-top profile-picture" alt="Your Name">
-          <div class="card-body profile-info">
-            <h5 class="card-title">Victor Fernandes</h5>
-            <p class="card-text">Web Developer</p>
-            <p><strong>Email:</strong> victorfrnds@naver.com</p>
-            <p><strong>Phone:</strong> +5541992858277</p>
-            <p><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/victorfrnds/">victorfrnds</a></p>
-            <p><strong>Github: </strong><a href="https://github.com/frndsvictor">frndsvictor</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-8">
-        <!-- CV Section -->
-        <div class="card">
-          <div class="card-body">
-
-            <!-- Education -->
-            <h3>Education</h3>
-            <p><strong>Technical Degree in Web Development</strong></p>
-            <p><strong>University:</strong> Anhanguera</p>
-            <p><strong>Year:</strong>  Graduated in July 2023</p>
-            <br>
-            <p><strong>Scrum Fundamentals</strong></p>
-            <p><strong>Year:</strong> Certification obtained in June 2023</p>
-
-            <!-- Work Experience -->
-            <hr class="solid">
-            <h3>Work Experience</h3>
-            <p><strong>Position:</strong> Technical Support</p>
-            <p><strong>Company:</strong> Prime Control</p>
-            <p><strong>Year:</strong>  January 2023 - September 2023</p>
-            <br>
-            <p><strong>Position:</strong> Technical Support</p>
-            <p><strong>Company:</strong> CEDAV</p>
-            <p><strong>Year:</strong>  July 2021 - August 2022</p>
-            <br>
-            <p><strong>Position:</strong> Web Development Intern</p>
-            <p><strong>Company:</strong> Logic Solutions</p>
-            <p><strong>Year:</strong>  October 2020 - July 2021</p>
-
-            <!-- Skills -->
-            <hr class="solid">
-            <h3>Skills</h3>
-            <ul>
-              <li>HTML5, CSS3, JavaScript</li>
-              <li>React.js, Angular, Vue.js, Node.js</li>
-              <li>Git, GitHub</li>
-            </ul>
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="profile-card p-4">
+          <img src="https://via.placeholder.com/150" class="rounded-circle mx-auto d-block mb-4" alt="Profile Picture">
+          <h2 class="text-center mb-3">Victor Fernandes</h2>
+          <p class="text-center">Web Developer</p>
+          <hr>
+          <ul class="list-unstyled">
+            <li class="media">
+              <i class="fas fa-envelope mr-3 mt-1"></i>
+              <div class="media-body">
+                victorfrnds@naver.com
+              </div>
+            </li>
+            <li class="media">
+              <i class="fas fa-phone mr-3 mt-1"></i>
+              <div class="media-body">
+                +55 (41) 99285-8277
+              </div>
+            </li>
+            <li class="media">
+              <i class="fas fa-map-marker-alt mr-3 mt-1"></i>
+              <div class="media-body">
+                Curitiba, BR
+              </div>
+            </li>
+          </ul>
+          <hr>
+          <p class="text-center">Follow me on:</p>
+          <div class="text-center">
+            <a href="#" class="btn btn-primary mx-2"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#" class="btn btn-primary mx-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="#" class="btn btn-primary mx-2"><i class="fab fa-github"></i> GitHub</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Bootstrap JS and Popper.js (optional) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
